@@ -1,0 +1,424 @@
+body{
+    margin: 0;
+}
+
+header{
+    background-image: linear-gradient(rgba( 0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photo2.png");
+    background-size: cover;
+}
+
+#top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: raw;
+    width: 100%;
+}
+
+#top-texts a{
+    text-decoration: none;
+    color: white;
+}
+
+#top-texts{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    font-family: calibri;
+    margin-left: 35vw;
+}
+
+#title-top{
+    color: #14284b;
+    background-color: #e1ba74;
+    text-align: center;
+    padding-left: 1.7vw;
+    padding-right: 1.7vw;
+    padding-bottom: 1.2vw;
+    padding-top: 1.2vw;
+    width: 7vw;
+    border-bottom-left-radius: 1.5vw;
+    border-bottom-right-radius: 1.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+#luxury{
+    font-size: 1.7vw;
+    font-weight: bolder;
+    letter-spacing: 0.2vw;
+}
+
+#hotels{
+    font-size: 1vw;
+    letter-spacing: 0.2vw;
+}
+
+#maintexts{
+    color: white;
+    margin-left: 12.5vw;
+    margin-top: 9vw;
+}
+
+#text1{
+    font-family: calibri;
+    font-size: 2.5vw;
+    font-weight: lighter;
+    letter-spacing: 0.2vw;
+    line-height: 10px;
+}
+
+#text2{
+    font-weight: bold;
+    letter-spacing: 0.2vw;
+    font-size: 6vw;
+}
+
+#text3{
+    font-weight: bolder;
+    letter-spacing: 0.4vw;
+    font-size: 2.5vw;
+    line-height: 10px;
+}
+
+#text4{
+    font-family: calibri;
+    letter-spacing: 0.1vw;
+    font-size: 1.3vw;
+    width: 25vw;
+    line-height: 1.2vw;
+    margin-top: 1vw;
+}
+
+#book{
+    background-color: #e1ba74;
+    color: white;
+    border: none;
+    padding: 1vw;
+    border-radius: 0.5vw;
+    width: 12vw;
+    font-weight: bolder;
+    margin-top: 6.7vw;
+    font-family: calibri;
+    font-size: 1.5vw;
+    cursor: pointer;
+}
+
+#booknow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#scroll{
+    color: white;
+    font-size: 1.2vw;
+    font-family: calibri;
+    font-weight: bolder;
+    letter-spacing: 0.1vw;
+}
+
+img{
+    height: 2vw;
+    margin-top: 0.5vw;
+    margin-bottom: 1.5vw;
+}
+
+#bottom{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 2vw;
+}
+
+#top-text{
+    color: #14274a;
+    letter-spacing: 0.01vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#top-text-title{
+    font-size: 2vw;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#top-text-text{
+    font-family: calibri;
+    font-size: 1.2vw;
+    width: 60.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vw;
+}
+
+#divs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#first, #second, #third, #fourth, #fifth, #sixth{
+    height: 35vw;
+    width: 65vw;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 4vw;
+}
+
+#first{
+    background-image: url("img1.png"); 
+}
+
+#second{
+    background-image: url("img2.png");
+}
+
+#third{
+    background-image: url("img3.png"); 
+}
+
+#fourth{
+    background-image: url("img4.png");
+}
+
+#fifth{
+    background-image: url("img5.png");
+}
+
+#sixth{
+    background-image: url("img6.png")
+}
+
+#divs p{
+    color: #14274a;
+    font-family: calibri;
+    font-weight: bold;
+    background-color: white;
+    text-align: center;
+    font-size: 2.5vw;
+    width: 40%;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 0;
+}
+
+#bottom-title{
+    color: #14274a;
+    font-size: 2vw;
+    font-weight: bold;
+    margin-bottom: 1vw;
+}
+
+#bottom-text1{
+    color: #14274a;
+    font-family: calibri;
+    font-size: 1.5vw;
+    margin-bottom: 0.5vw;
+}
+
+#bottom-text2{
+    color: #14274a;
+    font-family: calibri;
+    font-size: 1.3vw;
+    font-weight: lighter;
+    margin-bottom: 0.5vw;
+}
+
+#left{
+    background-color: #e1ba74;
+    border: none;
+    border-radius: 0.2vw;
+    color: white;
+    padding: 0.5vw;
+    width: 2vw;
+    font-weight: bold;
+    margin-right: 0.5vw;
+    cursor: pointer;
+}
+
+#right{
+    background-color: #e1ba74;
+    border: none;
+    border-radius: 0.2vw;
+    color: white;
+    padding: 0.5vw;
+    width: 2vw;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#bottom-texts{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 2.5vw;
+    margin-bottom: 6vw;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #14274a;
+    color: white;
+    width: 100%;
+    height: 15vw;
+}
+
+#footers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+#footer1{
+    align-items: left;
+}
+
+#footer1-title{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 8vw;
+}
+
+#footer1-luxury{
+    font-weight: bolder;
+    font-size: 2vw;
+}
+
+#footer1-hotels{
+    font-weight: lighter;
+    text-align: center;
+}
+
+#footer1-text{
+    width: 20vw;
+    font-family: calibri;
+    font-size: 1.2vw;
+    margin-top: 1vw;
+}
+
+#footer2 a{
+    text-decoration: none;
+    color: white;
+}
+
+#footer2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 10vw;
+    font-family: calibri;
+    font-size: 1.3vw;
+    line-height: 3vw;
+}
+
+#footer3-texts p{
+    font-family: calibri;
+    font-size: 1.3vw;
+    line-height: 3vw;
+    margin: 0;
+}
+
+#footer3-texts img{
+    margin: 0;
+    height: 1.5vw;
+    margin-right: 1vw;
+}
+
+#footer3{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    align-items: end;
+}
+
+#facebook, #Twitter, #Instagram{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+#footer4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.subscribe {
+    background-color: transparent;
+    padding: 15px;
+}
+  
+.subscribe p {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: calibri;
+    font-size: 1.3vw;
+}
+  
+.subscribe form {
+    display: flex;
+    align-items: center;
+}
+  
+.subscribe input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #e1ba74;
+    border-radius: 3px;
+    background-color: transparent;
+    color: white;
+    font-family: calibri;
+}
+  
+.subscribe button {
+    background-color: #e1ba74;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-family: calibri;
+    font-weight: bold;
+    color: #14274a;
+    height: 2.75vw;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+#box{
+    background-color: #14274a;
+    width: 8vw;
+    height: 8vw;
+    transform: rotate(45deg);
+    margin-bottom: -90px;
+}
+
+#rotate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
